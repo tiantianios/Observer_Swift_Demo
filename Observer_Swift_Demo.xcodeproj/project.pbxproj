@@ -12,6 +12,11 @@
 		391AEA7E1F82248900FDB639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391AEA7C1F82248900FDB639 /* Main.storyboard */; };
 		391AEA801F82248900FDB639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391AEA7F1F82248900FDB639 /* Assets.xcassets */; };
 		391AEA831F82248900FDB639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391AEA811F82248900FDB639 /* LaunchScreen.storyboard */; };
+		391AEA8C1F8224E900FDB639 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA8B1F8224E900FDB639 /* Observable.swift */; };
+		391AEA8E1F82252600FDB639 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA8D1F82252600FDB639 /* Observer.swift */; };
+		391AEA941F822BAE00FDB639 /* SpecificObserver1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA931F822BAE00FDB639 /* SpecificObserver1.swift */; };
+		391AEA961F822BBA00FDB639 /* SpecificObserver2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA951F822BBA00FDB639 /* SpecificObserver2.swift */; };
+		391AEA981F822D0900FDB639 /* SpecificObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391AEA971F822D0900FDB639 /* SpecificObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		391AEA7F1F82248900FDB639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		391AEA821F82248900FDB639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		391AEA841F82248900FDB639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391AEA8B1F8224E900FDB639 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		391AEA8D1F82252600FDB639 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		391AEA931F822BAE00FDB639 /* SpecificObserver1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificObserver1.swift; sourceTree = "<group>"; };
+		391AEA951F822BBA00FDB639 /* SpecificObserver2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificObserver2.swift; sourceTree = "<group>"; };
+		391AEA971F822D0900FDB639 /* SpecificObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		391AEA771F82248900FDB639 /* Observer_Swift_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				391AEA8A1F8224B600FDB639 /* Observer */,
 				391AEA781F82248900FDB639 /* AppDelegate.swift */,
 				391AEA7A1F82248900FDB639 /* ViewController.swift */,
 				391AEA7C1F82248900FDB639 /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				391AEA841F82248900FDB639 /* Info.plist */,
 			);
 			path = Observer_Swift_Demo;
+			sourceTree = "<group>";
+		};
+		391AEA8A1F8224B600FDB639 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				391AEA8B1F8224E900FDB639 /* Observable.swift */,
+				391AEA931F822BAE00FDB639 /* SpecificObserver1.swift */,
+				391AEA951F822BBA00FDB639 /* SpecificObserver2.swift */,
+				391AEA971F822D0900FDB639 /* SpecificObservable.swift */,
+				391AEA8D1F82252600FDB639 /* Observer.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391AEA941F822BAE00FDB639 /* SpecificObserver1.swift in Sources */,
 				391AEA7B1F82248900FDB639 /* ViewController.swift in Sources */,
+				391AEA961F822BBA00FDB639 /* SpecificObserver2.swift in Sources */,
+				391AEA981F822D0900FDB639 /* SpecificObservable.swift in Sources */,
+				391AEA8E1F82252600FDB639 /* Observer.swift in Sources */,
+				391AEA8C1F8224E900FDB639 /* Observable.swift in Sources */,
 				391AEA791F82248900FDB639 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
